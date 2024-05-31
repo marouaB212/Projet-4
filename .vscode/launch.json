@@ -7,9 +7,10 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open palette.html",
-            "file": "${workspaceFolder}/restaurants/palette.html",
+            "name": "Ohmyfood",
+            "file": "${workspaceFolder}/index.html",
             "webRoot": "${workspaceFolder}"
         }
+       
     ]
 }

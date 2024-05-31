@@ -1,0 +1,72 @@
+header {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.591);
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 20%;
+}
+
+.presentation__localisation {
+  width: 100%;
+  height: 70px;
+  gap: 17px;
+  background: rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation__localisation p::before {
+  content: "\f3c5";
+  font-family: "FontAwesome";
+  margin-right: rem-calc(15);
+}
+.presentation__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px 60px;
+  background-color: #f6f6f6;
+}
+.presentation__intro__soustitre {
+  margin: 15px 0 25px;
+  font-weight: 300;
+}
+.presentation__intro__boutton {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.421);
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  font-size: 19.5px;
+  background-color: linear-gradient(to bottom, #FF79DA, #9356DC 80%);
+}
+.presentationfonctionnement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.presentationfonctionnement__partie {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 691px;
+  margin-bottom: 25px;
+  padding: 15px 15px 15px 0;
+  border-radius: 60px;
+  cursor: pointer;
+  background-color: #f6f6f6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.421);
+}/*# sourceMappingURL=style.css.map */
