@@ -1,0 +1,38 @@
+.fonctionnement{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+
+        &__partie {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            max-width: 200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            background-color: #f6f6f6;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
+
+                
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: -12px;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                color: #fff;
+                background-color: #9356dc;
+            }
+        }
+    }

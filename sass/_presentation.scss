@@ -1,19 +1,12 @@
 .presentation {
-
     &__localisation {
         width: 100%;
         height: 70px;
         gap: 17px;
-        background:rgba(234, 234, 234, 1);
+        background: rgba(234, 234, 234, 1);
         display: flex;
         justify-content: center;
         align-items: center;
-
-        p::before{
-            content: '\f3c5';
-            font-family: 'FontAwesome';
-            margin-right: rem-calc(15);
-    }
     }
 
     &__intro {
@@ -31,44 +24,17 @@
         }
 
         &__boutton {
-            box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
-            padding: 20px;
-            border: none;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.421);
+            padding: 20px; 
             border-radius: 30px;
+            margin-top: 20px;
             letter-spacing: 1px;
             cursor: pointer;
             color: #fff;
             font-weight: 400;
-            font-size: 19.5px;
-            background-color: linear-gradient(to bottom, #FF79DA, #9356DC 80%);
+            font-size: clamp(16px, 38.4px, 19.2px); 
+            background: linear-gradient(to bottom, #FF79DA, #9356DC 80%);
         }
-
+        }
     }
-
-    &fonctionnement {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 40px 20px;
-    
-    
-            &__partie{
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                width: 100%;
-                max-width: 691px;
-                margin-bottom: 25px;
-                padding: 15px 15px 15px 0;
-                border-radius: 60px;
-                cursor: pointer;
-                background-color: #f6f6f6;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
-            }
-    }
-
-}
